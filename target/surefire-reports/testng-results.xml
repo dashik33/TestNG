@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="class03.LoginTest" duration-ms="8584" started-at="2022-05-18T08:45:33 GMT-05:00" finished-at="2022-05-18T08:45:42 GMT-05:00">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.VerifyCredentials()[pri:0, instance:class03.LoginTest@2d928643]" name="VerifyCredentials" class="class03.LoginTest"/>
+        <method signature="LoginTest.VerifyCredentials2()[pri:0, instance:class03.LoginTest@2d928643]" name="VerifyCredentials2" class="class03.LoginTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Command line test" duration-ms="8584" started-at="2022-05-18T08:45:33 GMT-05:00" finished-at="2022-05-18T08:45:42 GMT-05:00">
+      <class name="class03.LoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:class03.LoginTest@2d928643]" name="openBrowser" is-config="true" duration-ms="3768" started-at="2022-05-18T08:45:33 GMT-05:00" finished-at="2022-05-18T08:45:37 GMT-05:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="VerifyCredentials()[pri:0, instance:class03.LoginTest@2d928643]" name="VerifyCredentials" duration-ms="2503" started-at="2022-05-18T08:45:37 GMT-05:00" finished-at="2022-05-18T08:45:39 GMT-05:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCredentials -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:class03.LoginTest@2d928643]" name="CloseBrowser" is-config="true" duration-ms="87" started-at="2022-05-18T08:45:39 GMT-05:00" finished-at="2022-05-18T08:45:39 GMT-05:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:class03.LoginTest@2d928643]" name="openBrowser" is-config="true" duration-ms="1683" started-at="2022-05-18T08:45:39 GMT-05:00" finished-at="2022-05-18T08:45:41 GMT-05:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="VerifyCredentials2()[pri:0, instance:class03.LoginTest@2d928643]" name="VerifyCredentials2" duration-ms="435" started-at="2022-05-18T08:45:41 GMT-05:00" finished-at="2022-05-18T08:45:41 GMT-05:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCredentials2 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:class03.LoginTest@2d928643]" name="CloseBrowser" is-config="true" duration-ms="61" started-at="2022-05-18T08:45:41 GMT-05:00" finished-at="2022-05-18T08:45:42 GMT-05:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- class03.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- class03.LoginTest -->
+</testng-results>
