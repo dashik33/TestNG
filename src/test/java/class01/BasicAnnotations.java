@@ -2,6 +2,7 @@ package class01;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class BasicAnnotations {
@@ -17,8 +18,9 @@ public class BasicAnnotations {
 
     }
     @Test
-    public void thirdTest(){
-        System.out.println("My third testcase");
+    @Parameters("myName")
+    public void thirdTest(String myName){
+        System.out.println("My name is "+myName);
 
     }
 
